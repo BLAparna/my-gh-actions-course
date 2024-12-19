@@ -1,9 +1,0 @@
-name: 01-buildingblocks
-on: push
-jobs:
-    echo-hello:
-        run-on: ubuntu-latest
-        step:
-        
-    echo-goodbye:
-        run-on: ubuntu-latest
