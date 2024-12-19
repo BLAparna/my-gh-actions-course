@@ -1,0 +1,11 @@
+name : 02-workflow-events
+on: 
+    - push
+    - pull_request
+    - schedule
+jobs: 
+    echo:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: echoed
+              run: echo "type tje name"
