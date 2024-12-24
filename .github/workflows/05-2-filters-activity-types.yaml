@@ -5,6 +5,7 @@ on :
             - closed
         branches:
             - main
+            - aparna
 jobs:
     echo: 
         runs-on: ubuntu-latest
