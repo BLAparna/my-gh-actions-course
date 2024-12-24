@@ -5,7 +5,7 @@ on :
             - opened
             - synchronize
         branches:
-            - main
+            - aparna
 jobs:
     echo:
         runs-on: ubuntu-latest
